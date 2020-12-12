@@ -50,8 +50,6 @@ lo=0;
 function draw() {
   background(0);
   drawSprites();
-  text(score,200,200);
-  text(file,500,200);
   console.log(mouseX,mouseY)
   if(keyDown("down")){
    packageSprite.velocityY=4;
